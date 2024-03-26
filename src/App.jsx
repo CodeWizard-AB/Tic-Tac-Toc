@@ -36,10 +36,9 @@ export default function App() {
 function Square({ value, onSquareClick }) {
 	return (
 		<button
-			className="bg-[#223541] aspect-square w-40 rounded-md grid place-content-center"
 			onClick={onSquareClick}
+			className="bg-[#223541] aspect-square w-40 rounded-md grid place-content-center"
 		>
-			{/* {value} */}
 			<img src={value} />
 		</button>
 	);
